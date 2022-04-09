@@ -11,7 +11,7 @@ var carsMod = require('./mongoose/schema')
 const app = express()
 
 //connect to mongodb
-var url = 'mongodb://localhost:27017/mydb';
+var url = 'mongodb://localhost:27017/cars';
 mongoose.connect(url);
 
 
